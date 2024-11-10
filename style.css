@@ -1,0 +1,112 @@
+body {
+    font-family: 'Segoe UI',Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #d0d8e4; /* Soft, neutral background for a professional look */
+    color: #39546e; /* Dark slate color for text */
+}
+
+h1 {
+    text-align: center;
+    color: #193b3f; /* Fresh turquoise for a standout header */
+    font-size: 2.8em;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+form {
+    max-width: 700px;
+    margin: auto;
+    background-color: #ffffff; /* Clean white form background */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    border-radius: 15px; /* Elegant rounded corners */
+    padding: 40px;
+    border: none; /* Removed border for a sleek look */
+}
+
+fieldset {
+    border: 2px solid #dcdde1; /* Subtle gray border */
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 25px;
+    background-color: #fafafa; /* Very light background for contrast */
+}
+
+legend {
+    font-weight: 600;
+    color: #34495e; /* Muted dark blue for the legend */
+    font-size: 1.2em;
+    padding: 0 10px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    color: #555; /* Medium gray for labels */
+    font-weight: 500;
+    font-size: 0.95em;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #dfe6e9; /* Soft border for inputs */
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #ffffff; /* Pure white for input fields */
+    font-size: 1em;
+    transition: all 0.3s ease; /* Smooth transition for interaction */
+}
+
+input:focus, textarea:focus {
+    border-color: #1abc9c; /* Turquoise border on focus */
+    box-shadow: 0 0 5px rgba(26, 188, 156, 0.4); /* Soft glow effect */
+    outline: none;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    background-color: #1abc9c; /* Turquoise for an eye-catching button */
+    color: #fff; /* White text for contrast */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #16a085; /* Slightly darker turquoise on hover */
+}
+
+#resumeOutput {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 35px;
+    border-radius: 15px;
+    background-color: #ffffff; /* Clean white for the output */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Consistent shadow for depth */
+}
+
+#resumeOutput h2 {
+    color: #2c3e50; /* Dark slate for subheadings */
+    font-size: 2em;
+    margin-bottom: 18px;
+    font-weight: 600;
+}
+
+.profilePicture {
+    display: block;
+    margin: 0 auto 20px;
+    border: 3px solid #1abc9c; /* Turquoise border for emphasis */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    border-radius: 50%; /* Circular image */
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
